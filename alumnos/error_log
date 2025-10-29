@@ -1,0 +1,580 @@
+[14-Apr-2025 20:13:37 UTC] PHP Warning:  Undefined array key 0 in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/edit_student.php on line 90
+[14-Apr-2025 20:13:37 UTC] PHP Warning:  Undefined array key 0 in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/edit_student.php on line 90
+[14-Apr-2025 20:13:37 UTC] PHP Warning:  Undefined array key 2 in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/edit_student.php on line 91
+[14-Apr-2025 20:13:37 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/edit_student.php on line 91
+[14-Apr-2025 20:13:37 UTC] PHP Warning:  Undefined array key 1 in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/edit_student.php on line 91
+[14-Apr-2025 20:13:37 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/edit_student.php on line 91
+[15-Apr-2025 20:57:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xlikqebq_apolink.curso_usuario' doesn't exist in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php:15
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php(15): mysqli->prepare('SELECT curso_id...')
+#1 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/students.php(20): get_assigned_courses(Object(mysqli), 4, 'admin_curso')
+#2 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php on line 15
+[08-May-2025 18:56:55 UTC] PHP Warning:  require(include/conexion.php): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 9
+[08-May-2025 18:56:55 UTC] PHP Warning:  require(include/conexion.php): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 9
+[08-May-2025 18:56:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'include/conexion.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 9
+[08-May-2025 21:20:21 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:251
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(251): mysqli->prepare('\r\n             ...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 251
+[08-May-2025 21:28:26 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 267
+[08-May-2025 21:28:26 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 267
+[08-May-2025 21:28:26 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 267
+[08-May-2025 21:28:26 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 274
+[08-May-2025 21:28:26 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 274
+[08-May-2025 21:28:26 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 274
+[08-May-2025 21:28:26 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 275
+[08-May-2025 21:28:26 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 275
+[08-May-2025 21:28:26 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 275
+[08-May-2025 21:28:26 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:320
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(320): mysqli->query('\r\n             ...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 320
+[08-May-2025 21:31:53 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 267
+[08-May-2025 21:31:53 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 267
+[08-May-2025 21:31:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 267
+[08-May-2025 21:31:53 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 274
+[08-May-2025 21:31:53 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 274
+[08-May-2025 21:31:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 274
+[08-May-2025 21:31:53 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 275
+[08-May-2025 21:31:53 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 275
+[08-May-2025 21:31:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 275
+[08-May-2025 21:31:53 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:320
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(320): mysqli->query('\r\n             ...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 320
+[08-May-2025 21:34:49 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:330
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(330): mysqli->query('\r\n             ...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 330
+[08-May-2025 21:36:27 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:327
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(327): mysqli->query('\r\n             ...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 327
+[08-May-2025 21:37:32 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:327
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(327): mysqli->query('\r\n             ...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 327
+[08-May-2025 21:40:38 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 321
+[08-May-2025 21:40:38 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 321
+[08-May-2025 21:40:38 UTC] PHP Warning:  Undefined array key "alumno_nombre" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 391
+[08-May-2025 21:40:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 391
+[08-May-2025 21:40:38 UTC] PHP Warning:  Undefined array key "fecha_nac" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 392
+[08-May-2025 21:40:38 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 392
+[09-May-2025 16:10:40 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 321
+[09-May-2025 16:10:40 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 321
+[09-May-2025 16:10:40 UTC] PHP Warning:  Undefined array key "alumno_nombre" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 391
+[09-May-2025 16:10:40 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 391
+[09-May-2025 16:10:40 UTC] PHP Warning:  Undefined array key "fecha_nac" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 392
+[09-May-2025 16:10:40 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 392
+[09-May-2025 16:48:34 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 321
+[09-May-2025 16:48:34 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 321
+[09-May-2025 16:48:34 UTC] PHP Warning:  Undefined array key "alumno_nombre" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 391
+[09-May-2025 16:48:34 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 391
+[09-May-2025 16:48:34 UTC] PHP Warning:  Undefined array key "fecha_nac" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 392
+[09-May-2025 16:48:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 392
+[09-May-2025 19:01:18 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 321
+[09-May-2025 19:01:18 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 321
+[09-May-2025 19:01:18 UTC] PHP Warning:  Undefined array key "alumno_nombre" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 391
+[09-May-2025 19:01:18 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 391
+[09-May-2025 19:01:18 UTC] PHP Warning:  Undefined array key "fecha_nac" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 392
+[09-May-2025 19:01:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 392
+[09-May-2025 19:04:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_assigned_courses() in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php:51
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(263): include()
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php on line 51
+[09-May-2025 19:10:01 UTC] PHP Fatal error:  Cannot redeclare require_login() (previously declared in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/seguridad.php:4) in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/seguridad.php on line 4
+[09-May-2025 19:10:23 UTC] PHP Fatal error:  Cannot redeclare require_login() (previously declared in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/seguridad.php:4) in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/seguridad.php on line 4
+[09-May-2025 19:10:25 UTC] PHP Fatal error:  Cannot redeclare require_login() (previously declared in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/seguridad.php:4) in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/seguridad.php on line 4
+[09-May-2025 19:10:26 UTC] PHP Fatal error:  Cannot redeclare require_login() (previously declared in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/seguridad.php:4) in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/seguridad.php on line 4
+[09-May-2025 19:10:55 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 4) in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php on line 2
+[09-May-2025 19:10:55 UTC] PHP Fatal error:  Cannot redeclare require_login() (previously declared in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/seguridad.php:4) in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/seguridad.php on line 4
+[09-May-2025 19:11:10 UTC] PHP Fatal error:  Cannot redeclare require_login() (previously declared in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/seguridad.php:4) in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/seguridad.php on line 4
+[09-May-2025 19:11:39 UTC] PHP Fatal error:  Cannot redeclare require_login() (previously declared in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/seguridad.php:4) in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/seguridad.php on line 4
+[09-May-2025 19:12:47 UTC] PHP Warning:  require_once(include/seguridad.php): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php on line 7
+[09-May-2025 19:12:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'include/seguridad.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php:7
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(263): include()
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php on line 7
+[09-May-2025 19:13:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_assigned_courses() in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php:64
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(263): include()
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php on line 64
+[09-May-2025 19:15:03 UTC] PHP Warning:  Undefined variable $rol in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php on line 65
+[09-May-2025 19:15:03 UTC] PHP Warning:  Undefined array key "alumno_nombre" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 288
+[09-May-2025 19:15:03 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 288
+[09-May-2025 19:15:03 UTC] PHP Warning:  Undefined array key "fecha_nac" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 289
+[09-May-2025 19:15:03 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 289
+[09-May-2025 19:17:24 UTC] PHP Warning:  Undefined variable $rol in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php on line 65
+[09-May-2025 19:17:24 UTC] PHP Warning:  Undefined array key "id_curso" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 271
+[09-May-2025 19:17:24 UTC] PHP Warning:  Undefined array key "alumno_nombre" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 341
+[09-May-2025 19:17:24 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 341
+[09-May-2025 19:17:24 UTC] PHP Warning:  Undefined array key "fecha_nac" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 342
+[09-May-2025 19:17:24 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 342
+[09-May-2025 19:29:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xlikqebq_apolink.alumnos' doesn't exist in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:30
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(30): mysqli->prepare('SELECT * FROM a...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 30
+[09-May-2025 19:30:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xlikqebq_apolink.alumnos' doesn't exist in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:34
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(34): mysqli->prepare('SELECT * FROM a...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 34
+[09-May-2025 19:31:20 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:31:20 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:31:20 UTC] PHP Fatal error:  Cannot redeclare get_assigned_courses() (previously declared in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php:6) in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php on line 6
+[09-May-2025 19:33:43 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:33:43 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:39:05 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:39:05 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:39:22 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "aqui" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 33
+[09-May-2025 19:39:38 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:39:38 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:40:54 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:40:54 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:45:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:38
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(38): mysqli_stmt->bind_param('i', '1')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 38
+[09-May-2025 19:46:06 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:46:06 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:46:42 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:46:42 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:48:20 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:48:20 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:49:39 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:49:39 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:49:39 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 62
+[09-May-2025 19:50:10 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:50:10 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:53:53 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:53:53 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:53:53 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli_stmt could not be converted to string in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 60
+[09-May-2025 19:54:10 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:54:10 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:54:10 UTC] PHP Warning:  Array to string conversion in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 60
+[09-May-2025 19:54:41 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:54:41 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:54:41 UTC] PHP Warning:  Undefined array key "rut" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 60
+[09-May-2025 19:56:19 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:56:19 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:56:19 UTC] PHP Warning:  Undefined array key "rut" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 64
+[09-May-2025 19:57:11 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:57:11 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:57:11 UTC] PHP Warning:  Undefined array key "rut" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 66
+[09-May-2025 19:59:06 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:59:06 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 19:59:06 UTC] PHP Warning:  Undefined array key "rut" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 64
+[09-May-2025 20:00:45 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:00:45 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:06:36 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:06:36 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:09:14 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:09:14 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:10:55 UTC] PHP Warning:  include(../include/sidebar.php1): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 57
+[09-May-2025 20:10:55 UTC] PHP Warning:  include(../include/sidebar.php1): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 57
+[09-May-2025 20:10:55 UTC] PHP Warning:  include(): Failed opening '../include/sidebar.php1' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 57
+[09-May-2025 20:10:55 UTC] PHP Warning:  include(../include/topbar.php1): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 61
+[09-May-2025 20:10:55 UTC] PHP Warning:  include(../include/topbar.php1): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 61
+[09-May-2025 20:10:55 UTC] PHP Warning:  include(): Failed opening '../include/topbar.php1' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 61
+[09-May-2025 20:10:55 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 85
+[09-May-2025 20:10:55 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 85
+[09-May-2025 20:11:41 UTC] PHP Warning:  include(../include/sidebar.php1): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 57
+[09-May-2025 20:11:41 UTC] PHP Warning:  include(../include/sidebar.php1): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 57
+[09-May-2025 20:11:41 UTC] PHP Warning:  include(): Failed opening '../include/sidebar.php1' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 57
+[09-May-2025 20:11:52 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:11:52 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:11:52 UTC] PHP Warning:  include(../include/topbar.php1): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 61
+[09-May-2025 20:11:52 UTC] PHP Warning:  include(../include/topbar.php1): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 61
+[09-May-2025 20:11:52 UTC] PHP Warning:  include(): Failed opening '../include/topbar.php1' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 61
+[09-May-2025 20:11:52 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 85
+[09-May-2025 20:11:52 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 85
+[09-May-2025 20:13:49 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:13:49 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:13:49 UTC] PHP Warning:  require_once(../include/helpers.php): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php on line 8
+[09-May-2025 20:13:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../include/helpers.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php:8
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(61): include()
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php on line 8
+[09-May-2025 20:14:15 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:14:15 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:14:15 UTC] PHP Warning:  require_once(helpers.php): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php on line 8
+[09-May-2025 20:14:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'helpers.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php:8
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(61): include()
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php on line 8
+[09-May-2025 20:25:22 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:25:22 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:25:22 UTC] PHP Warning:  require_once(helpers.php): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php on line 8
+[09-May-2025 20:25:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'helpers.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php:8
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(61): include()
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/topbar.php on line 8
+[09-May-2025 20:27:26 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:27:26 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:31:00 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:31:00 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:31:56 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:31:56 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:32:15 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:32:15 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:32:38 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:32:38 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:32:52 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:32:52 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:33:05 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:33:05 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:33:23 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:33:23 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:33:33 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:33:33 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:33:47 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:33:47 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:33:57 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[09-May-2025 20:33:57 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[11-May-2025 17:04:50 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[11-May-2025 17:04:50 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:13:57 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:13:57 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:22:47 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:22:47 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:22:47 UTC] PHP Warning:  Undefined array key "rut" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 378
+[12-May-2025 13:22:47 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 378
+[12-May-2025 13:22:47 UTC] PHP Warning:  Undefined array key "nombre" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 379
+[12-May-2025 13:22:47 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 379
+[12-May-2025 13:22:47 UTC] PHP Warning:  Undefined array key "fecha_nac" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 380
+[12-May-2025 13:22:47 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 380
+[12-May-2025 13:22:47 UTC] PHP Warning:  Undefined array key "email" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 381
+[12-May-2025 13:22:47 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 381
+[12-May-2025 13:22:47 UTC] PHP Warning:  Undefined array key "telefono" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 382
+[12-May-2025 13:22:47 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 382
+[12-May-2025 13:27:41 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:27:41 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:27:41 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 398
+[12-May-2025 13:27:41 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 398
+[12-May-2025 13:31:15 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:31:15 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:32:09 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:32:09 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:33:50 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:33:50 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:35:44 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:35:44 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:35:47 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:35:47 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:36:32 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:36:32 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:38:29 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:38:29 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:39:34 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:39:34 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:40:51 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:40:51 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:41:19 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:41:19 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:43:02 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:43:02 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:54:33 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:54:33 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:54:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xlikqebq_apolink.alumnos_apoderado' doesn't exist in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:373
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(373): mysqli->prepare('SELECT \r\n      ...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 373
+[12-May-2025 13:55:01 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:55:01 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:55:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xlikqebq_apolink.user' doesn't exist in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:373
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(373): mysqli->prepare('SELECT \r\n      ...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 373
+[12-May-2025 13:55:25 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:55:25 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:59:49 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:59:49 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 13:59:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'u.email AS apoderado_email,
+                        u.telefono AS apoderado_...' at line 4 in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:373
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(373): mysqli->prepare('SELECT \r\n      ...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 373
+[12-May-2025 14:00:27 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:00:27 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:02:09 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:02:09 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:07:42 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:07:42 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:07:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xlikqebq_apolink.alumnos_apoderado' doesn't exist in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:381
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(381): mysqli->prepare('SELECT \r\n      ...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 381
+[12-May-2025 14:08:00 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:08:00 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:08:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xlikqebq_apolink.user' doesn't exist in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:381
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(381): mysqli->prepare('SELECT \r\n      ...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 381
+[12-May-2025 14:12:02 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:12:02 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:12:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xlikqebq_apolink.user' doesn't exist in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:381
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(381): mysqli->prepare('SELECT \r\n      ...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 381
+[12-May-2025 14:12:13 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:12:13 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:12:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 's.alumno_primer_apellido' in 'GROUP BY' in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:381
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(381): mysqli->prepare('SELECT \r\n      ...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 381
+[12-May-2025 14:12:42 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:12:42 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:15:58 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:15:58 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:20:02 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:20:02 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:22:06 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:22:06 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:24:21 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:24:21 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:25:21 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:25:21 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:26:02 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:26:02 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:27:09 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:27:09 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:28:56 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:28:56 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:29:11 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:29:11 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:29:17 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:29:17 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:29:20 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:29:20 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:32:00 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:32:00 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:32:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY 
+                        s.id, s.rut, s.nombre, s.primer_apellido, ...' at line 22 in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:384
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(384): mysqli->prepare('SELECT \r\n      ...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 384
+[12-May-2025 14:32:45 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:32:45 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:33:12 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:33:12 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:33:45 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:33:45 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:38:55 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 14:38:55 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:09:12 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:09:12 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:10:01 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:10:01 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:11:06 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:11:06 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:12:21 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:12:21 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:13:41 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:13:41 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:14:16 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:14:16 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:15:09 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:15:09 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:18:09 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:18:09 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:18:39 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:18:39 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:27:47 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:27:47 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:27:47 UTC] PHP Warning:  Undefined variable $dia_mes_actual in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 454
+[12-May-2025 15:27:47 UTC] PHP Warning:  Undefined variable $dia_mes_actual in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 454
+[12-May-2025 15:27:47 UTC] PHP Warning:  Undefined variable $dia_mes_actual in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 454
+[12-May-2025 15:27:47 UTC] PHP Warning:  Undefined variable $dia_mes_actual in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 454
+[12-May-2025 15:37:11 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:37:11 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:40:04 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:40:04 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:45:30 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:45:30 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:46:10 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:46:10 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:51:42 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:51:42 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:52:26 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:52:26 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:52:26 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "🎁" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:457
+Stack trace:
+#0 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 457
+[12-May-2025 15:53:17 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:53:17 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:56:30 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 15:56:30 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 16:02:56 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 16:02:56 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 16:39:36 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 16:39:36 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 16:40:13 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 16:40:13 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 16:41:00 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 16:41:00 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 16:49:33 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 16:49:33 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 17:40:12 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[12-May-2025 17:40:12 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 17
+[12-May-2025 17:40:12 UTC] PHP Warning:  Undefined array key "colegio_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 18
+[12-May-2025 17:40:12 UTC] PHP Warning:  Undefined array key "rol" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 19
+[12-May-2025 17:40:12 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 20
+[12-May-2025 17:40:18 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 17:40:18 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 17:40:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 's.primero_apellido' in 'SELECT' in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:91
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(91): mysqli->prepare('\r\n            S...')
+#1 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 91
+[12-May-2025 17:40:37 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 17:40:37 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 17:41:21 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 17:41:21 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 19:02:56 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 19:02:56 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 19:21:08 UTC] PHP Warning:  Undefined variable $alumno in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[12-May-2025 19:21:08 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 27
+[13-May-2025 12:40:37 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[13-May-2025 12:40:37 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 17
+[13-May-2025 12:40:37 UTC] PHP Warning:  Undefined array key "colegio_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 18
+[13-May-2025 12:40:37 UTC] PHP Warning:  Undefined array key "rol" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 19
+[13-May-2025 12:40:37 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 20
+[14-May-2025 17:11:43 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[14-May-2025 17:11:43 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 17
+[14-May-2025 17:11:43 UTC] PHP Warning:  Undefined array key "colegio_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 18
+[14-May-2025 17:11:43 UTC] PHP Warning:  Undefined array key "rol" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 19
+[14-May-2025 17:11:43 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 20
+[19-May-2025 14:06:06 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[19-May-2025 14:06:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xlikqebq_apolink.curso_usuario' doesn't exist in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php:15
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php(15): mysqli->prepare('SELECT curso_id...')
+#1 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(83): get_assigned_courses(Object(mysqli), 3, 'tesorero')
+#2 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php on line 15
+[19-May-2025 14:06:41 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[19-May-2025 14:06:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xlikqebq_apolink.curso_usuario' doesn't exist in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php:15
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php(15): mysqli->prepare('SELECT curso_id...')
+#1 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(83): get_assigned_courses(Object(mysqli), 3, 'tesorero')
+#2 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php on line 15
+[19-May-2025 14:07:09 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[19-May-2025 14:07:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xlikqebq_apolink.curso_usuario' doesn't exist in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php:15
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php(15): mysqli->prepare('SELECT curso_id...')
+#1 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(83): get_assigned_courses(Object(mysqli), 3, 'tesorero')
+#2 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php on line 15
+[19-May-2025 14:13:16 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[19-May-2025 14:13:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xlikqebq_apolink.curso_usuario' doesn't exist in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php:15
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php(15): mysqli->prepare('SELECT curso_id...')
+#1 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php(83): get_assigned_courses(Object(mysqli), 3, 'tesorero')
+#2 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/get_assigned_courses.php on line 15
+[19-May-2025 14:14:08 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[19-May-2025 14:14:08 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar.php on line 4
+[19-May-2025 14:40:17 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[19-May-2025 14:40:17 UTC] PHP Warning:  include(include/sidebar_dashboard_tesorero.php): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 450
+[19-May-2025 14:40:17 UTC] PHP Warning:  include(include/sidebar_dashboard_tesorero.php): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 450
+[19-May-2025 14:40:17 UTC] PHP Warning:  include(): Failed opening 'include/sidebar_dashboard_tesorero.php' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 450
+[19-May-2025 14:40:47 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[19-May-2025 14:40:47 UTC] PHP Warning:  Undefined array key 0 in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar_dashboard_tesorero.php on line 43
+[19-May-2025 14:40:47 UTC] PHP Warning:  Trying to access array offset on null in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/include/sidebar_dashboard_tesorero.php on line 43
+[19-May-2025 14:42:35 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[19-May-2025 14:43:58 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[19-May-2025 14:43:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_assigned_courses() in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 83
+[19-May-2025 14:44:20 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[19-May-2025 14:44:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function require_login() in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 29
+[19-May-2025 14:44:42 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[19-May-2025 14:44:42 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 17
+[19-May-2025 14:44:42 UTC] PHP Warning:  Undefined array key "colegio_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 18
+[19-May-2025 14:44:42 UTC] PHP Warning:  Undefined array key "rol" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 19
+[19-May-2025 14:44:42 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 20
+[19-May-2025 14:44:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function require_login() in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 29
+[19-May-2025 14:45:30 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[19-May-2025 14:45:30 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 17
+[19-May-2025 14:45:30 UTC] PHP Warning:  Undefined array key "colegio_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 18
+[19-May-2025 14:45:30 UTC] PHP Warning:  Undefined array key "rol" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 19
+[19-May-2025 14:45:30 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 20
+[19-May-2025 14:45:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function require_login() in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 29
+[19-May-2025 14:46:28 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[19-May-2025 14:46:28 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 17
+[19-May-2025 14:46:28 UTC] PHP Warning:  Undefined array key "colegio_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 18
+[19-May-2025 14:46:28 UTC] PHP Warning:  Undefined array key "rol" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 19
+[19-May-2025 14:46:28 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 20
+[19-May-2025 15:26:19 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[19-May-2025 15:28:06 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[21-May-2025 01:38:18 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[21-May-2025 01:38:18 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 17
+[21-May-2025 01:38:18 UTC] PHP Warning:  Undefined array key "colegio_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 18
+[21-May-2025 01:38:18 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 19
+[21-May-2025 01:38:18 UTC] PHP Warning:  Undefined array key "rol" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 20
+[21-May-2025 01:38:18 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 21
+[22-May-2025 22:47:50 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[22-May-2025 22:47:50 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 17
+[22-May-2025 22:47:50 UTC] PHP Warning:  Undefined array key "colegio_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 18
+[22-May-2025 22:47:50 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 19
+[22-May-2025 22:47:50 UTC] PHP Warning:  Undefined array key "rol" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 20
+[22-May-2025 22:47:50 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 21
+[23-May-2025 14:22:12 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[23-May-2025 14:22:12 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 17
+[23-May-2025 14:22:12 UTC] PHP Warning:  Undefined array key "colegio_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 18
+[23-May-2025 14:22:12 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 19
+[23-May-2025 14:22:12 UTC] PHP Warning:  Undefined array key "rol" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 20
+[23-May-2025 14:22:12 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 21
+[30-Jun-2025 19:21:00 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list.php on line 16
+[30-Jun-2025 19:36:53 UTC] PHP Warning:  Undefined array key "alumno_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list_tesorero.php on line 16
+[01-Jul-2025 15:08:08 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list_tesorero.php on line 17
+[01-Jul-2025 15:08:08 UTC] PHP Warning:  Undefined array key "colegio_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list_tesorero.php on line 18
+[01-Jul-2025 15:08:08 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list_tesorero.php on line 19
+[01-Jul-2025 15:08:08 UTC] PHP Warning:  Undefined array key "rol" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list_tesorero.php on line 20
+[01-Jul-2025 15:08:08 UTC] PHP Warning:  Undefined array key "usuario_id" in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/alumnos/alumnos_list_tesorero.php on line 21

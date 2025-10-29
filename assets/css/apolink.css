@@ -1,0 +1,65 @@
+
+/* archivo: apolink.css */
+/* Paleta oficial Apolink + componentes visuales base */
+
+:root {
+  --color-primario: #0056D2;
+  --color-primario-claro: #E6EEFB;
+  --color-secundario: #00B4D8;
+  --color-exito: #198754;
+  --color-advertencia: #FFC107;
+  --color-error: #DC3545;
+  --color-texto: #212529;
+  --color-fondo: #F8F9FA;
+  --color-borde: #DEE2E6;
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+.btn-apolink {
+  background-color: var(--color-primario);
+  color: white;
+  border: none;
+}
+.btn-apolink:hover {
+  background-color: #004bb5;
+}
+
+.card-apolink {
+  border-left: 4px solid var(--color-primario);
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.topbar-apolink {
+  background-color: var(--color-primario);
+  color: white;
+  padding: 10px 20px;
+}
+
+.sidebar-apolink {
+  background-color: var(--color-primario-claro);
+  min-height: 100vh;
+  padding: 1rem;
+  border-right: 1px solid var(--color-borde);
+}
+
+.disabled-module {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.card-module {
+  transition: 0.2s;
+  cursor: pointer;
+}
+.card-module:hover {
+  background-color: var(--color-primario-claro);
+}

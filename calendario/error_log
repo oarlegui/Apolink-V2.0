@@ -1,0 +1,38 @@
+
+[21-Apr-2025 17:26:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function require_login() in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php on line 9
+[21-Apr-2025 17:26:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function require_login() in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php on line 9
+[21-Apr-2025 17:26:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function require_rol() in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php on line 10
+[21-Apr-2025 17:27:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xlikqebq_apolink.asignaturas' doesn't exist in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php:29
+Stack trace:
+#0 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php(29): mysqli->prepare('SELECT a.id, a....')
+#1 /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php(41): obtenerAsignaturas('comun', 1, Object(mysqli))
+#2 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php on line 29
+[21-Apr-2025 17:28:09 UTC] PHP Warning:  include(../include/sidebar.php): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php on line 62
+[21-Apr-2025 17:28:09 UTC] PHP Warning:  include(../include/sidebar.php): Failed to open stream: No such file or directory in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php on line 62
+[21-Apr-2025 17:28:09 UTC] PHP Warning:  include(): Failed opening '../include/sidebar.php' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php on line 62
+[21-Apr-2025 17:30:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function convertDayToNumber() in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php:93
+Stack trace:
+#0 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php on line 93
+[21-Apr-2025 17:31:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function convertDayToNumber() in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php:93
+Stack trace:
+#0 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php on line 93
+[21-Apr-2025 17:34:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function convertDayToNumber() in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php:93
+Stack trace:
+#0 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php on line 93
+[21-Apr-2025 17:35:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function convertDayToNumber() in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php:93
+Stack trace:
+#0 {main}
+  thrown in /home/xlikqebq/www.arlegui-it.cl/apolink/apolink_v2/ApolinkV2/calendario/calendario_asignaturas.php on line 93
